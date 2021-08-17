@@ -1,18 +1,47 @@
-.the-container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 1rem 0;
+.main-wrapper {
+    display: flex;
 }
 
-.dashboard {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.side-menu {
+    width: 17%;
+    background-color: #619e85;
+    padding: 0 2rem;
+    color: white;
+
+    h2,
+    li {
+        cursor: pointer;
+
+        &:hover {
+            text-shadow: 0 0 2px white;
+        }
+    }
+
+    ul {
+        padding-left: 15px;
+    }
+
+    li {
+        list-style: none;
+        font-size: 18px;
+        margin-bottom: 14px;
+    }
+
+    .menu-options {
+        position: sticky;
+        top: 35px;
+    }
+}
+
+.dashboard-content {
+    width: 75%;
+    padding: 0rem 4rem;
+    min-height: 100vh;
 
     .user-card {
-        width: 45%;
-        box-shadow: 0 0 2px 0 #619e85;
+        // box-shadow: 0 0 2px 0 #619e85;
         margin-bottom: 4rem;
+        display: flex;
 
         .title {
             margin-bottom: 0.5rem;
@@ -83,13 +112,24 @@
         }
 
         .user-details,
-        .subscription-details {
+        .user-subscription-details {
             padding: 1rem;
+            width: 50%;
         }
 
-        .subscription-details {
+        .user-details {
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+
+        .user-subscription-details {
             background-color: #619e85;
             color: white;
+            display: flex;
+            align-items: center;
+
+            &.no-subscription {
+                background-color: lightcoral;
+            }
         }
     }
 }
