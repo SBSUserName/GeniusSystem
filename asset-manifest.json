@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/GeniusSystem/static/css/main.59065578.chunk.css",
-    "main.js": "/GeniusSystem/static/js/main.2f10fba1.chunk.js",
-    "main.js.map": "/GeniusSystem/static/js/main.2f10fba1.chunk.js.map",
+    "main.css": "/GeniusSystem/static/css/main.f0bcaae2.chunk.css",
+    "main.js": "/GeniusSystem/static/js/main.f43dad16.chunk.js",
+    "main.js.map": "/GeniusSystem/static/js/main.f43dad16.chunk.js.map",
     "runtime-main.js": "/GeniusSystem/static/js/runtime-main.74087ef8.js",
     "runtime-main.js.map": "/GeniusSystem/static/js/runtime-main.74087ef8.js.map",
-    "static/js/2.04620625.chunk.js": "/GeniusSystem/static/js/2.04620625.chunk.js",
-    "static/js/2.04620625.chunk.js.map": "/GeniusSystem/static/js/2.04620625.chunk.js.map",
+    "static/js/2.0a3cfddb.chunk.js": "/GeniusSystem/static/js/2.0a3cfddb.chunk.js",
+    "static/js/2.0a3cfddb.chunk.js.map": "/GeniusSystem/static/js/2.0a3cfddb.chunk.js.map",
     "static/js/3.8ff43f01.chunk.js": "/GeniusSystem/static/js/3.8ff43f01.chunk.js",
     "static/js/3.8ff43f01.chunk.js.map": "/GeniusSystem/static/js/3.8ff43f01.chunk.js.map",
     "index.html": "/GeniusSystem/index.html",
-    "static/css/main.59065578.chunk.css.map": "/GeniusSystem/static/css/main.59065578.chunk.css.map",
-    "static/js/2.04620625.chunk.js.LICENSE.txt": "/GeniusSystem/static/js/2.04620625.chunk.js.LICENSE.txt"
+    "static/css/main.f0bcaae2.chunk.css.map": "/GeniusSystem/static/css/main.f0bcaae2.chunk.css.map",
+    "static/js/2.0a3cfddb.chunk.js.LICENSE.txt": "/GeniusSystem/static/js/2.0a3cfddb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.74087ef8.js",
-    "static/js/2.04620625.chunk.js",
-    "static/css/main.59065578.chunk.css",
-    "static/js/main.2f10fba1.chunk.js"
+    "static/js/2.0a3cfddb.chunk.js",
+    "static/css/main.f0bcaae2.chunk.css",
+    "static/js/main.f43dad16.chunk.js"
   ]
 }
