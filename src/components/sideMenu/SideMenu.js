@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./sideMenu.scss";
 
 export default class SideMenu extends Component {
@@ -26,9 +26,9 @@ export default class SideMenu extends Component {
                 </div>
 
                 <div className='menu-options'>
-                    <Link to='/'>
+                    <NavLink to='/allUsers'>
                         <h2>All Users</h2>
-                    </Link>
+                    </NavLink>
 
                     <div className='divider'></div>
 
@@ -38,13 +38,13 @@ export default class SideMenu extends Component {
                             {this.state.plans.map((plan) => {
                                 return (
                                     <>
-                                        <Link key={plan} to={`/${plan}`}>
+                                        <NavLink key={plan} to={`/${plan}`} activeClassName="active">
                                             <li>
                                                 {plan === "Plan3"
                                                     ? "Plan 3"
                                                     : plan}
                                             </li>
-                                        </Link>
+                                        </NavLink>
                                     </>
                                 );
                             })}

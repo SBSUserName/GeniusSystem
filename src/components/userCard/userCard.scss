@@ -78,6 +78,7 @@
     .user-subscription-details {
         padding: 1rem;
         width: 50%;
+        word-break: break-all;
 
         @media (max-width: 1199px) {
             width: auto;
