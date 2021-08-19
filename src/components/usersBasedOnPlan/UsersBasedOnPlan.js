@@ -38,6 +38,8 @@ export default class Plan1 extends Component {
             onlyPlan1: onlyPlan1,
         });
 
+        window.scrollTo(0, 0);
+
         if( document.getElementById("sideMenu").classList[1]) {
             document.getElementById("sideMenu").classList.remove("show")
         }

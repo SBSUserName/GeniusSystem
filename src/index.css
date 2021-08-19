@@ -39,6 +39,14 @@ a {
 .header .controls {
     display: flex;
     align-items: center;
+    cursor: pointer;
+}
+
+.header .controls button {
+    cursor: pointer;
+}
+.header .controls button:hover {
+    box-shadow: 0 0 5px 0 black;
 }
 
 @media (max-width: 1199px) {

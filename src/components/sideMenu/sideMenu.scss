@@ -25,10 +25,9 @@
         right: 100%;
         width: 0;
         height: 100vh;
-        padding: 2rem;
+        padding: 2rem 0;
     }
 
-    h2,
     li {
         cursor: pointer;
 
@@ -91,6 +90,7 @@
         display: none;
         cursor: pointer;
         transition: 0.25s;
+        box-shadow: 0 0 2px 0 black;
 
         &:hover {
             box-shadow: 0 0 5px 0 black;
@@ -113,6 +113,14 @@
             &:hover {
                 box-shadow: 0 0 5px 0 white;
             }
+        }
+    }
+
+    .close-icon,
+    .menu-options {
+        @media (max-width: 1199px) {
+            width: 95%;
+            margin: auto;
         }
     }
 }

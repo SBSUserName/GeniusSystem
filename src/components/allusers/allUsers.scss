@@ -4,6 +4,25 @@
     @media (max-width: 1199px) {
         display: block;
     }
+
+    .up-btn {
+        position: fixed;
+        bottom: 35px;
+        right: 15px;
+        border: none;
+        background-color: #619e85;
+        color: white;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        box-shadow: 0 0 2px 0 black;
+        transition: 0.25s;
+
+        &:hover {
+            box-shadow: 0 0 5px 0 black;
+        }
+    }
 }
 
 .dashboard-content {
