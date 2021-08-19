@@ -17,6 +17,8 @@ export default class Dashboard extends Component {
             users: users,
         });
 
+        window.scrollTo(0, 0);
+
         if( document.getElementById("sideMenu").classList[1]) {
             document.getElementById("sideMenu").classList.remove("show")
         }
