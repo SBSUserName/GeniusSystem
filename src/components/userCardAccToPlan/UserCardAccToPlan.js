@@ -1,10 +1,8 @@
-import React, { Component } from "react";
-import UserDetails from "./UserDetails";
-import UserSubscriptionDetails from "./UserSubscriptionDetails";
-import subscriptions from "../../assets/json/subscriptions.json";
-import "./userCard.scss";
+import React, { Component } from 'react';
+import UserDetails from '../userCard/UserDetails';
+import UserSubscriptionDetails from '../userCard/UserSubscriptionDetails';
 
-export default class UserCard extends Component {
+export default class UserCardAccToPlan extends Component {
     constructor(props) {
         super(props);
 
@@ -18,10 +16,10 @@ export default class UserCard extends Component {
     }
 
     componentDidMount() {
-        subscriptions.map((subscription, index) => {
+        this.props.planSubscriptions.map((subscription, index) => {
             if (subscription.user_id == this.props.userID) {
                 this.setState({
-                    subscriptionDetail: subscriptions[index],
+                    subscriptionDetail: this.props.planSubscriptions[index],
                 });
             }
         });
@@ -48,6 +46,6 @@ export default class UserCard extends Component {
                     expires_on = {this.state.subscriptionDetail.expires_on}
                 />
             </div>
-        );
+        )
     }
 }

@@ -1,0 +1,29 @@
+.main-wrapper {
+    display: flex;
+
+    @media (max-width: 1199px) {
+        display: block;
+    }
+}
+
+.dashboard-content {
+    width: 75%;
+    padding: 3rem 4rem;
+    min-height: 100vh;
+
+    @media (max-width: 1199px) {
+        width: auto;
+    }
+
+    @media (max-width: 575px) {
+        padding: 3rem 0;
+    }
+
+    .subscription-controls {
+        display: none;
+
+        @media (max-width: 1199px) {
+            display: block;
+        }
+    }
+}
