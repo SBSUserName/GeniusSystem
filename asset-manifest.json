@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/GeniusSystem/static/css/main.b8058066.chunk.css",
-    "main.js": "/GeniusSystem/static/js/main.f43dad16.chunk.js",
-    "main.js.map": "/GeniusSystem/static/js/main.f43dad16.chunk.js.map",
+    "main.js": "/GeniusSystem/static/js/main.bc02d863.chunk.js",
+    "main.js.map": "/GeniusSystem/static/js/main.bc02d863.chunk.js.map",
     "runtime-main.js": "/GeniusSystem/static/js/runtime-main.74087ef8.js",
     "runtime-main.js.map": "/GeniusSystem/static/js/runtime-main.74087ef8.js.map",
     "static/js/2.0a3cfddb.chunk.js": "/GeniusSystem/static/js/2.0a3cfddb.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.74087ef8.js",
     "static/js/2.0a3cfddb.chunk.js",
     "static/css/main.b8058066.chunk.css",
-    "static/js/main.f43dad16.chunk.js"
+    "static/js/main.bc02d863.chunk.js"
   ]
 }
